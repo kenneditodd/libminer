@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/kenneditodd/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kenneditodd/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup.
@@ -29,17 +31,17 @@ optionally iwth the total sizes, use `lib_summary()`.
 library(libminer)
 
 lib_summary()
-#>                                                                                       Library
-#> 1                              /Library/Frameworks/R.framework/Versions/4.2/Resources/library
-#> 2 /private/var/folders/2p/xrsx4gc16g1056vc8nwhth0c_vq37m/T/RtmpggRczF/temp_libpath4cedcbf859e
+#>                                                                                        Library
+#> 1                               /Library/Frameworks/R.framework/Versions/4.2/Resources/library
+#> 2 /private/var/folders/2p/xrsx4gc16g1056vc8nwhth0c_vq37m/T/RtmpggRczF/temp_libpath4ced639b78fa
 #>   n_packages
 #> 1        308
 #> 2          1
 lib_summary(sizes = TRUE)
-#>                                                                                       Library
-#> 1                              /Library/Frameworks/R.framework/Versions/4.2/Resources/library
-#> 2 /private/var/folders/2p/xrsx4gc16g1056vc8nwhth0c_vq37m/T/RtmpggRczF/temp_libpath4cedcbf859e
+#>                                                                                        Library
+#> 1                               /Library/Frameworks/R.framework/Versions/4.2/Resources/library
+#> 2 /private/var/folders/2p/xrsx4gc16g1056vc8nwhth0c_vq37m/T/RtmpggRczF/temp_libpath4ced639b78fa
 #>   n_packages   lib_size
 #> 1        308 1740893113
-#> 2          1      14307
+#> 2          1      14310
 ```
