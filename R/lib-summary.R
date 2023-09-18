@@ -11,6 +11,7 @@
 #'
 #' @examples
 #' lib_summary()
+#' lib_summary(sizes = TRUE)
 lib_summary <- function(sizes = FALSE) {
   if(!is.logical(sizes)) {
     stop("sizes must be a logical value (TRUE/FALSE)")

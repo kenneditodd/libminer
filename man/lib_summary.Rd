@@ -19,4 +19,5 @@ Provides a brief summary of the package libraries on your machine.
 }
 \examples{
 lib_summary()
+lib_summary(sizes = TRUE)
 }
